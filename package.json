@@ -15,7 +15,8 @@
   },
   "keywords": [
     "nodejs",
-    "inquirer"
+    "inquirer",
+    "mysql"
   ],
   "author": "Jagmit Cheema",
   "license": "ISC",
