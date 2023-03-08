@@ -10,16 +10,16 @@ VALUES ('Legal Team Lead', 250000, 1),
     ('Lead Engineer', 150000, 3),
     ('Engineer', 120000, 3);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Jerry', 'Underwood', 1, null),
-    ('Bob', 'Sheldon', 2, 1),
-    ('Jason', 'Mendoza', 2, 1),
-    ('Alex', 'Jackson', 3, null),
-    ('Peter', 'Makah', 4, 2),
-    ('Suzie', 'Alisson', 4, 2),
-    ('John', 'Winger', 4, 2),
-    ('Pete', 'McFall', 5, null),
-    ('Alexis', 'Caper', 6, 3),
-    ('Mason', 'Jacobson', 6, 3);
+VALUES ('Mike', 'Jordan', 1, null),
+    ('Bob', 'Lazzer', 2, 1),
+    ('Jagmit', 'Cheema', 2, 1),
+    ('Joe', 'Rogan', 3, null),
+    ('Kobe', 'Bryant', 4, 2),
+    ('Elon', 'Musk', 4, 2),
+    ('Bill', 'Nye', 4, 2),
+    ('Chief', 'Keef', 5, null),
+    ('Aubrey', 'Drake', 6, 3),
+    ('Young', 'Thug', 6, 3);
 INSERT INTO manager (first_name, last_name)
 SELECT first_name,
     last_name
