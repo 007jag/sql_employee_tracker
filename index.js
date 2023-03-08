@@ -7,7 +7,7 @@ const promptUser = () => {
             type: 'list',
             name: 'begin choices',
             message: 'What would you like to do? (Select on of the following)',
-            choices: ['View All Employees', 'View All Employees By Department', 'View All Employees By Manager', 'Add Employee', 'Update Employee Role', 'View Departments', 'Add Department', 'View Roles', 'Add Role', 'I am finished']
+            choices: ['View All Employees', 'View All Employees By Department', 'View All Employees By Manager', 'Add Employee', 'Update Employee Role', 'View Departments', 'Add Department', 'View Roles', 'Add Role','View total budget', 'I am finished']
         })
         .then((data) => {
             switch (data['begin choices']) {
@@ -38,6 +38,9 @@ const promptUser = () => {
                 case 'Add Role':
                     addRole();
                     break;
+                case 'View total budget':
+                    addTotalByDep();
+                    break;
                 case 'I am finished':
                     break;
             }
@@ -48,5 +51,5 @@ module.exports = { promptUser }
 const { viewAllEmp, viewEmpByDep, viewEmpByMngt, addEmp, upEmp } = require('./lib/employee');
 const { viewDep, addDep } = require('./lib/department-methods');
 const { viewRoles, addRole } = require('./lib/roles-methods');
-
+const { addTotalByDep } = require('./lib/calculations');
 promptUser()
