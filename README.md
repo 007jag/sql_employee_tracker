@@ -50,4 +50,4 @@ click this to view repository
   - [Project Repo](https://github.com/007jag/sql_employee_tracker)
 
 
- [my Github](https://github.com/dashboard) and if you have additional questions, please email me at: Jagmitsingh2003@gmail.com
+ [my Github](https://github.com/dashboard) and if you have questions, email me at: Jagmitsingh2003@gmail.com
