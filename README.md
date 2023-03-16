@@ -18,7 +18,7 @@ This project is intended for anyone who needs to:
 
 
 
-[Link to Demo Video]()
+[Link to Demo Video](https://www.youtube.com/watch?v=N6UrWjTJ-bE&ab_channel=JagCheema)
 
 
 install mysql on your computer, please refer to [mysql website](https://www.mysql.com/downloads/) for installation
